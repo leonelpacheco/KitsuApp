@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KitsuApp</string>
+
+    <string name="f_anime_search_string">Filtar Animes...</string>
+
+    <string name="f_detail_anime_title">Titulo Anime</string>
+    <string name="f_detail_anime_description">Descripción: </string>
+    <string name="f_detail_anime_clasification">Clasificación: </string>
+    <string name="f_detail_anime_status">Estatus: </string>
+
+    <string name="f_include_detail_anime_popularity">Popularidad: </string>
+    <string name="f_include_detail_anime_type">Tipo: </string>
+    <string name="description_anime">In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to keep peace in the galaxy, aided in part by outlaw bounty hunters, referred to as Cowboys. The ragtag team aboard the spaceship Bebop are two such individuals. Mellow and carefree Spike Spiegel is balanced by his boisterous, pragmatic partner Jet Black as the pair makes a living chasing bounties and collecting rewards. Thrown off course by the addition of new members that they meet in their travels—Ein, a genetically engineered, highly intelligent Welsh Corgi; femme fatale Faye Valentine, an enigmatic trickster with memory loss; and the strange computer whiz kid Edward Wong—the crew embarks on thrilling adventures that unravel each members dark and mysterious past little by little. Well-balanced with high density action and light-hearted comedy, Cowboy Bebop is a space Western classic and an homage to the smooth and improvised music it is named after. (Source: MAL Rewrite)</string>
+</resources>

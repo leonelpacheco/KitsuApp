@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/animesFragment">
+
+    <fragment
+        android:id="@+id/animesFragment"
+        android:name="com.leonel.kitsuapp.ui.animes.AnimesFragment"
+        android:label="Lista de Animes"
+        tools:layout="@layout/fragment_animes">
+        <action
+            android:id="@+id/action_animesFragment_to_detailAnimeFragment"
+            app:destination="@id/detailAnimeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailAnimeFragment"
+        android:name="com.leonel.kitsuapp.ui.detailanime.DetailAnimeFragment"
+        android:label="Detail Anime"
+        tools:layout="@layout/fragment_detail_anime"/>
+</navigation>
