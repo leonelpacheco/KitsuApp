@@ -6,23 +6,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.core.view.isVisible
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.NavDirections
-import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.DividerItemDecoration
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.leonel.kitsuapp.adapter.AnimeAdapter
-import com.leonel.kitsuapp.databinding.FragmentAnimesBinding
 import com.leonel.kitsuapp.databinding.FragmentDetailAnimeBinding
 import com.leonel.kitsuapp.utils.ConnectionLiveData
 import com.squareup.picasso.Picasso
 import dagger.hilt.android.AndroidEntryPoint
-import kotlin.math.roundToInt
-import kotlin.math.roundToLong
 
 @AndroidEntryPoint
 class DetailAnimeFragment : Fragment() {

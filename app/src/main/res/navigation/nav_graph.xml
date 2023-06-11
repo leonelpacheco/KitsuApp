@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/animesFragment"
         android:name="com.leonel.kitsuapp.ui.animes.AnimesFragment"
-        android:label="Lista de Animes"
+        android:label="List Animes"
         tools:layout="@layout/fragment_animes">
         <action
             android:id="@+id/action_animesFragment_to_detailAnimeFragment"

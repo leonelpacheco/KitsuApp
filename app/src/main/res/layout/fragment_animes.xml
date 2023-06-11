@@ -23,6 +23,7 @@
         android:ellipsize="end"
         android:imeOptions="actionDone"
         android:paddingStart="15dp"
+        android:paddingEnd="15dp"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -53,7 +53,7 @@ enum class AgeRating(val value: String) {
     R("R");
 
     companion object {
-        public fun fromValue(value: String): AgeRating = when (value) {
+         fun fromValue(value: String): AgeRating = when (value) {
             "PG" -> PG
             "R"  -> R
             else -> throw IllegalArgumentException()
@@ -123,7 +123,7 @@ enum class TypeEnum(val value: String) {
     Anime("anime");
 
     companion object {
-        public fun fromValue(value: String): TypeEnum = when (value) {
+         fun fromValue(value: String): TypeEnum = when (value) {
             "anime" -> Anime
             else    -> throw IllegalArgumentException()
         }
